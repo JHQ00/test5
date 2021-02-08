@@ -35,7 +35,9 @@ let fruitSlowDown = false;
 let clickChangeFruit = false;
 
 // 广告链接：false 或为空字符串表示不会跳转到广告
-let adLink = 'https://mp.weixin.qq.com/s?__biz=MzI5MjMzNzYzOA==&mid=2247483683&idx=1&sn=f4e13200a61ad4ed419f488d9d1d5645&chksm=ec03a3aadb742abc93854f2ded08e84c8e0e6959baaf35eb324e06eafab2b0e0107241be0d86&xtrack=1&scene=90&subscene=93&sessionid=1612765378&clicktime=1612765379&enterid=1612765379&ascene=56&devicetype=android-29&version=28000151&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&exportkey=Ay%2Fm%2B%2F5mQb952t%2F8JzcPKO4%3D&pass_ticket=waKKeCjdR7MBAHyZeoAumU1UFmiiNSBFIkyzDG%2FSAgFQJ8W2X3m9piw%2BG%2FK3nfmq&wx_header=1';
+//let adLink = 'https://mp.weixin.qq.com/s?__biz=MzI5MjMzNzYzOA==&mid=2247483683&idx=1&sn=f4e13200a61ad4ed419f488d9d1d5645&chksm=ec03a3aadb742abc93854f2ded08e84c8e0e6959baaf35eb324e06eafab2b0e0107241be0d86&xtrack=1&scene=90&subscene=93&sessionid=1612765378&clicktime=1612765379&enterid=1612765379&ascene=56&devicetype=android-29&version=28000151&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&exportkey=Ay%2Fm%2B%2F5mQb952t%2F8JzcPKO4%3D&pass_ticket=waKKeCjdR7MBAHyZeoAumU1UFmiiNSBFIkyzDG%2FSAgFQJ8W2X3m9piw%2BG%2FK3nfmq&wx_header=1';
+let adLink = 'www.baidu.com';
+
 
 // 修改网页标题：将 "合成大西瓜" 进行替换
 document.getElementsByTagName("title")[0].innerText = '合成大茜茜';
